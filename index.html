@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="w-screen pl-10">
+    <header class="container flex justify-between w-screen">
+      <div class="flex justify-evenly w-11/12 text-center">
+        <div class="w-2/6">
+          <img src="./images/logo.svg" alt="" class="h-6" />
+        </div>
+        <div class=""></div>
+        <ul class="flex w-4/5 text-gray-400">
+          <li> <a href="#" class="pr-4">Collections</a></li>
+          <li> <a href="#" class="pr-4">Men</a> </li>
+          <li> <a href="#" class="pr-4">Women</a> </li>
+          <li> <a href="#" class="pr-4">About</a> </li>
+          <li> <a href="#" class="pr-4">Contact</a> </li>
+        </ul>
+      </div>
+      <div class="flex h-6 w-1/12 justify-between">
+        <img src="./images/icon-cart.svg" alt="" />
+        <img src="./images/image-avatar.png" alt="" />
+      </div>
+      <hr />
+    </header>
+    <main class="flex pt-16 w-screen items-center">
+      <div class="w-3/6">
+        <div class="w-8/12 rounded-md pb-8">
+          <img src="./images/image-product-1.jpg" alt="" class="rounded-md" />
+        </div>
+        <div class="flex w-11/12">
+          <div class="w-2/3/ h-1/4">
+            <img
+              src="./images/image-product-1-thumbnail.jpg"
+              alt=""
+              class="w-2/5 h-2/4 rounded-md" />
+          </div>
+          <div class="w-2/3 h-1/4">
+            <img
+              src="./images/image-product-2-thumbnail.jpg"
+              alt=""
+              class="w-2/5 h-2/4 rounded-md" />
+          </div>
+          <div class="w-2/3 h-1/4">
+            <img
+              src="./images/image-product-3-thumbnail.jpg"
+              alt=""
+              class="w-2/5 h-2/4 rounded-md" />
+          </div>
+          <div class="w-2/3 h-1/4">
+            <img
+              src="./images/image-product-4-thumbnail.jpg"
+              class="w-2/5 h-2/4 rounded-md" />
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <h5 class="text-orange-500 pb-3">SNEAKER COMPANY</h5>
+        <h1 class="text-4xl font-bold pb-6 rounded-md"
+          >Fall Limited Edition <br />
+          Sneakers</h1
+        >
+        <p class="text-gray-400 pb-4"
+          >These low-profile sneakers are your perfect casual wear <br />
+          companion. Featuring a durable rubber outer sole, they’ll <br />
+          withstand everything the weather can offer.</p
+        >
+        <h4 class="flex font-bold text-2xl align-middle"
+          >$125.00 <span class="text-orange-500 pl-6 text-sm">50%</span></h4
+        >
+        <p class="text-gray-400 pb-4 text-bold">$250.00</p>
+        <div class="font-bold flex justify-between">
+          <h6 class="text-orange-500">- <span class="text-black">0</span> +</h6>
+          <button
+            type="submit"
+            class="bg-orange-500 text-white flex py-2 rounded-md px-12 text-sm">
+            <img src="./images/icon-cart.svg" alt="" /> Add to cart
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution text-sm text-center">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-cyan-500"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" class="text-cyan-500">Your Name Here</a>.
+    </div>
+  </body>
+</html>
