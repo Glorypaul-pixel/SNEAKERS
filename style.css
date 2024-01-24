@@ -3,10 +3,19 @@
   padding: 0px;
   margin: 0px;
 }
+header {
+  position: fixed;
+  background-color: white;
+  padding: 2rem;
+  top: 0;
+}
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+}
+main {
+  padding-top: 10rem;
 }
 .sticky + main {
   padding-top: 102px;
