@@ -3,3 +3,8 @@
   padding: 0px;
   margin: 0px;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

@@ -1,1 +1,5 @@
-let button = document.getElementById("");
+let Header = document.getElementById("header");
+
+function myHeader() {
+  Header;
+}
